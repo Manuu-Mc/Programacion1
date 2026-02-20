@@ -1,0 +1,19 @@
+public class Veterinario {
+    private String name;
+    private String especie;
+    private String raza;
+    private int edad;
+    private int identificacion;
+    private String nombrePropetario;
+    private int numeroContacto;
+
+    public Veterinario(String name, String especie, String raza, int edad, int identificacion, String nombrePropetario, int numeroContacto){
+        this.name = name;
+        this.especie = especie;
+        this.raza = raza;
+        this.edad = edad;
+        this.identificacion = identificacion;
+        this.nombrePropetario = nombrePropetario;
+        this.numeroContacto = numeroContacto;
+    }
+}
